@@ -1,0 +1,79 @@
+.login {
+    padding: 0 20px;
+}
+
+.login header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 0;
+}
+
+.login header b {
+    font-size: 15px;
+    font-family: system-ui;
+}
+
+.login__armchair {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.login__armchair hr {
+    width: 105px;
+    background: #BDBDBD;
+}
+
+.login__info h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.login__info h2 span {
+    color: #909090;
+}
+
+.login__form {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Nunito Sans", sans-serif;
+    color: #909090;
+}
+
+.login__form input {
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #E0E0E0;
+    margin-bottom: 35px;
+    padding: 10px;
+}
+
+.login__form input:focus {
+    outline: none;
+    border-bottom: 2px solid rgb(209, 209, 73);
+}
+
+
+.login__form button {
+    width: 100%;
+    margin: 40px 0 30px;
+    padding: 13px;
+    background: #242424;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.login a {
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}

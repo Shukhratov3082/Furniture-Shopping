@@ -1,0 +1,33 @@
+main {
+    height: 100vh;
+    padding: 30px;
+    background-image: url("../images/boarding-bg.png");
+    place-content: center;
+}
+
+main span {
+    font-size: 24px;
+    color: #606060;
+}
+
+main h1 {
+    margin: 15px 0 35px;
+    font-size: 30px;
+    font-family: "Gelasio", serif;
+}
+
+main p {
+    margin: 0 0 154px 29px;
+    color: #808080;
+    line-height: 35px;
+}
+
+main button {
+    display: block;
+    margin: 0 auto;
+    padding: 15px 29px;
+    background: #242424;
+    border: none;
+    color: #fff;
+
+}
